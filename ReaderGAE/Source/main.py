@@ -8,13 +8,13 @@ from google.appengine.ext.webapp import template
 
 class TestHandler(webapp.RequestHandler):
     def get(self):
-        path = os.path.join(os.path.dirname(__file__), 'templates/Reader.htm')
+        path = os.path.join(os.path.dirname(__file__), 'templates/View.html')
         self.response.out.write(template.render(path, {}))
 
 
 def main():
     application = webapp.WSGIApplication([
-        ('/reader/',                        TestHandler),
+        ('/view/',                          TestHandler),
         ], debug=True)
     util.run_wsgi_app(application)
 
