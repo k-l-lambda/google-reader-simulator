@@ -6,6 +6,8 @@ TODO:
 
 2013.7.8	K.L.	<k.l.lambda@gmail.com>
 
+	>	ReaderGAE\Source\app.yaml: upgraded python API to 2.7.
+
 	+	ReaderGAE\Source\templates\View.html: user id from google user server added.
 
 	>	ReaderGAE\Source\templates\View.html: replaced Chinese characters.
